@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 set -ex
 
-./configure --prefix="${PREFIX}" \
+./configure \
+  --prefix="${PREFIX}" \
+  --enable-gpl \
+  --enable-gpl3 \
   --without-kde
 
 make
