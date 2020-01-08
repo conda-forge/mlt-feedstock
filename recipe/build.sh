@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 set -ex
 
-./configure --prefix="${PREFIX}" \
+./configure \
+  --prefix="${PREFIX}" \
+  --enable-gpl \
   --without-kde
 
 make
