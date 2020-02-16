@@ -25,4 +25,3 @@ pin_run_as_build:
     max_pin: x
   libxml2:
     max_pin: x.x
-
