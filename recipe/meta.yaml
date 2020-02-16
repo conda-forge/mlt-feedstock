@@ -1,5 +1,5 @@
 {% set name = "mlt" %}
-{% set version = "6.18.0" %}
+{% set version = "6.20.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,13 @@ package:
 
 source:
   url: https://github.com/mltframework/mlt/releases/download/v{{ version }}/mlt-{{ version }}.tar.gz
-  sha256: fd2a346e0cc093e5d813e04cd126c077a2d224ae4d17b5226ff7478feaa445ea
+  sha256: ab211e27c06c0688f9cbe2d74dc0623624ef75ea4f94eea915cdc313196be2dd
   patches:
     # fix for GCC detection
     - configure.patch
 
 build:
-  number: 1
+  number: 0
   skip: True  # [not linux]
 
 
