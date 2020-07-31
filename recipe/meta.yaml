@@ -1,5 +1,5 @@
 {% set name = "mlt" %}
-{% set version = "6.20.0" %}
+{% set version = "6.22.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://github.com/mltframework/mlt/releases/download/v{{ version }}/mlt-{{ version }}.tar.gz
-  sha256: ab211e27c06c0688f9cbe2d74dc0623624ef75ea4f94eea915cdc313196be2dd
+  sha256: 3392d70c528d7f32e78329232b1b93a5a36b058215f664953090315132b797e5
   patches:
     # fix for GCC detection
     - configure.patch
 
 build:
-  number: 3
-  skip: True  # [not linux]
+  number: 0
+  skip: true  # [not linux]
 
 
 requirements:
@@ -46,7 +46,7 @@ about:
   license: LGPL-2.1
   license_family: GPL
   license_file: COPYING
-  summary: 'MLT Multimedia Framework'
+  summary: MLT Multimedia Framework
   description: |
     Author, manage, and run multitrack audio/video compositions.
     The engine of a non-linear video editor that can be used in all sorts of apps,
