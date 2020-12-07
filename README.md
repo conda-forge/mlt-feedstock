@@ -5,9 +5,13 @@ Home: https://www.mltframework.org/
 
 Package license: LGPL-2.1
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mlt-feedstock/blob/master/LICENSE.txt)
 
 Summary: MLT Multimedia Framework
+
+Development: https://github.com/mltframework/mlt
+
+Documentation: https://www.mltframework.org/docs/
 
 Author, manage, and run multitrack audio/video compositions.
 The engine of a non-linear video editor that can be used in all sorts of apps,
