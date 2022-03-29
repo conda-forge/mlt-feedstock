@@ -20,6 +20,8 @@ ffmpeg:
 - '4.4'
 fftw:
 - '3'
+glib:
+- '2'
 libxml2:
 - '2.9'
 pin_run_as_build:
