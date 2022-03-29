@@ -33,6 +33,7 @@ requirements:
     - ladspa
     - jack
     - fftw
+    - glib
   run:
     - libxml2
     - jack
