@@ -29,6 +29,8 @@ pin_run_as_build:
     max_pin: x
   libxml2:
     max_pin: x.x
+pulseaudio:
+- '14.0'
 target_platform:
 - linux-64
 zip_keys:
