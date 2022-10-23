@@ -17,18 +17,13 @@ cxx_compiler_version:
 docker_image:
 - quay.io/condaforge/linux-anvil-cos7-x86_64
 ffmpeg:
-- '4.4'
+- '5'
 fftw:
 - '3'
 glib:
 - '2'
 libxml2:
-- '2.9'
-pin_run_as_build:
-  fftw:
-    max_pin: x
-  libxml2:
-    max_pin: x.x
+- '2.10'
 pulseaudio:
 - '14.0'
 target_platform:
