@@ -34,9 +34,6 @@ requirements:
     - jack
     - fftw
     - glib
-  run:
-    - libxml2
-    - jack
 
 test:
   commands:
@@ -45,7 +42,7 @@ test:
 about:
   home: https://www.mltframework.org/
   license: LGPL-2.1
-  license_family: GPL
+  license_family: LGPL
   license_file: COPYING
   summary: MLT Multimedia Framework
   description: |
