@@ -1,11 +1,11 @@
-About mlt
-=========
+About mlt-feedstock
+===================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mlt-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.mltframework.org/
 
 Package license: LGPL-2.1
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mlt-feedstock/blob/main/LICENSE.txt)
 
 Summary: MLT Multimedia Framework
 
