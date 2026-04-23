@@ -1,11 +1,11 @@
-About mlt
-=========
+About mlt-feedstock
+===================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mlt-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.mltframework.org/
 
 Package license: LGPL-2.1
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mlt-feedstock/blob/main/LICENSE.txt)
 
 Summary: MLT Multimedia Framework
 
@@ -41,10 +41,17 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64</td>
+              <td>linux_64_ffmpeg5</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8438&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mlt-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mlt-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_ffmpeg5" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_ffmpeg6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8438&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mlt-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_ffmpeg6" alt="variant">
                 </a>
               </td>
             </tr>
