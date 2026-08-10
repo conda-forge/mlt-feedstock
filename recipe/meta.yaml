@@ -13,13 +13,14 @@ source:
     - configure.patch
 
 build:
-  number: 6
+  number: 7
   skip: true  # [not linux]
 
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
     - make
     - pkg-config
